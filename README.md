@@ -1,4 +1,4 @@
-# 💼 My Portfolio — Tailwind CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![View it live](https://img.shields.io/badge/Live-Demo-blue)](https://kanha1235.github.io/mern-practice-projects/youtube-like-players/)
+# 💼 My Portfolio — Tailwind CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![View it live](https://img.shields.io/badge/Live-Demo-blue)](https://kanha1235.github.io/my-portfolio/)
 
 A modern, responsive single-page portfolio website built with **Tailwind CSS** and **vanilla JavaScript**, designed to showcase my projects, skills, and contact information.
 
