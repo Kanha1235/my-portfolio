@@ -1,0 +1,8 @@
+// tailwind.config.js
+export default {
+  content: ['./src/**/*.{html,js,jsx,ts,tsx,css}', './index.html'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}

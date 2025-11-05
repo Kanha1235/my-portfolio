@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+<body class="font-body bg-slate-950 text-slate-200 ">
+    <header class = "bg-slate-950/70 sticky top-0 z-50 backdrop-blur border-b border-slate-700 ">
+        <div class="max-w-6xl px-4 py-2  mx-auto ">
+            <div class="flex justify-between items-center">
+                <a href="#home" class="flex gap-2 flex items-center">
+                    <div class="w-9 h-9 bg-brand-600 text-sm font-bold rounded-xl  flex justify-center items-center tracking-tight">KS</div>
+                    <div class="font-extrabold tracking-tight text-lg  hover:text-brand-400" >Kanhaiya&nbsp;Kumar&nbsp;Sahu</div>
+                </a>
+                <nav class="flex gap-8 items-center max-md:hidden ">
+                    <a href="#home" class="hover:text-brand-400 tracking-normal">Home</a>
+                    <a href="#about" class="hover:text-brand-400 tracking-normal">About&nbsp;Me</a>
+                    <a href="#projects" class="hover:text-brand-400 tracking-normal">Projects</a>
+                    <a href="#contact" class="hover:text-brand-400 tracking-normal">Contact</a>
+                </nav>
+                <button class="menuButton flex flex-col gap-1.5 border rounded border-slate-400 p-2 hover:bg-gray-800 md:hidden ">
+                    <div class="w-6  h-[0.5px]    bg-slate-200 "></div>
+                    <div class="w-6  h-[0.5px]   bg-slate-200 "></div>
+                    <div class="w-6  h-[0.5px]  bg-slate-200 "></div>
+                </button>
+
+            </div>
+            <div class=" hidden md:hidden flex flex-col justify-evenly gap-2 pt-2  mobileNav pb-4 ">
+                <a href="#home" class= " tracking-normal py-2 px-3  hover:bg-slate-800 rounded  ">Home</a>
+                    <a href="#about" class=" tracking-normal py-2 px-3  hover:bg-slate-800  rounded ">About&nbsp;Me</a>
+                    <a href="#projects" class=" tracking-normal py-2 px-3  hover:bg-slate-800 rounded ">Projects</a>
+                    <a href="#contact" class=" tracking-normal py-2 px-3  hover:bg-slate-800 rounded ">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class=" relative min-h-[92vh] bg-[url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop')] bg-cover bg-center flex justify-center items-center "  id="home">
+        <div class="absolute inset-0  bg-slate-950/60 "></div>
+        <div class="max-w-3xl text-center px-4 z-40 ">
+            <p class=" inline-block rounded-full capitalise bg-accent-600 px-2  tracking-widest">Software developer • C/C++ • JS</p>
+            <h1 class="mt-6 text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight ">Hello, I'm <span class="text-accent-300">Kanhaiya</span></h1>
+            <p class=" mt-4 text-lg sm:text-xl text-slate-200">Web Developer, Competetive Programmer, Software developer. I love write clean, optimized, readable code.</p>
+            <a href="#projects" class="mt-8 shadow-floating bg-brand-600 font-bold px-6 py-3 hover:bg-brand-700  active:bg-brand-800   rounded-xl  box-border inline-block ">View My Work &nbsp; &#x2192;</a>
+        </div>
+    </section>
+    
+    <!-- About Me -->
+    <section class="py-20 " id="about"> 
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 place-items-center gap-10">
+                <div class="flex justify-center items-center">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQH7xaj6rSzV-Q/profile-displayphoto-shrink_800_800/B56Zd5Y7LZH8Ac-/0/1750088267538?e=1763596800&v=beta&t=hZUvh1Ia1VYOtZ8Jf3hav2L9VMVOIARQYzxootFYbSM" alt="profile" class="h-48 w-48 shadow-floating ring-4  ring-brand-600 rounded-full ">
+                </div>
+                <div class="justify-self-start ">
+                    <h1 class="font-extrabold text-3xl tracking-tight ">About Me</h1>
+                    <p class="mt-4 text-slate-300 ">B.Tech (Mathematics &amp; Computing) from IIT Ropar. I enjoy crafting UIs and building full‑stack projects.
+            Recent work includes a Wedding Card Studio, Wishlist App, and a C++ Shopping Cart backend.</p>
+                    <div class="mt-6">
+                        <h3 class="font-semibold">Key Skills</h3>
+                        <div class="mt-3 flex flex-wrap gap-2">
+                            <span class="px-3 py-1 rounded-full text-sm bg-slate-800">C/C++</span>
+                            <span class="px-3 py-1 rounded-full text-sm  bg-slate-800">JavaScript</span>
+                            <span class="px-3 py-1 rounded-full text-sm bg-slate-800">HTML</span>
+                            <span class="px-3 py-1 rounded-full text-sm bg-slate-800">CSS</span>
+                            <span class="px-3 py-1 rounded-full text-sm bg-slate-800">Bootstrap</span>
+                            <span class="px-3 py-1 rounded-full text-sm bg-slate-800">Tailwind&nbsp;CSS</span>
+                            <span class="px-3 py-1 rounded-full text-sm bg-slate-800">SQL</span>
+                            <span class="px-3 py-1 rounded-full text-sm bg-slate-800">Git&nbsp;&amp;&nbsp;Github</span>
+                            <span class="px-3 py-1 rounded-full text-sm bg-slate-800">OOPS</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-20 bg-slate-900 ">
+        <div class="max-w-6xl mx-auto px-4 ">
+            <div class="flex justify-between items-end">
+                <h1 class="font-bold text-3xl ">Projects</h1>
+                <a href="https://github.com/Kanha1235" target="_blank" class="text-brand-400 tracking-normal ">View Github&nbsp;&#x2197;</a>
+            </div>
+            <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                <article class="shadow-floating bg-slate-950 rounded-2xl hover:scale-[1.01] transition-transform ">
+                    <img src="./src/wedding_card_studio_sc.png" alt="Wedding Card Studio" class="w-full h-50 object-cover object-center rounded-t-2xl">
+                    <div class="p-6  flex flex-col justify-between gap-3 ">
+                        <div>
+                            <h1 class="font-extrabold text-xl  tracking-tight">Wedding Card Studio</h1>
+                            <p class="mt-3 tracking-tight">Browser-based invite designer with draggable text, typography toolbar, and slide thumbnails using Shadow DOM.</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-500">HTML • CSS • Vanilla&nbsp;JS</p>
+                            <div class="mt-3">
+                                <a href="https://kanha1235.github.io/wedding-card-studio/" target="_blank" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 active:bg-brand-800 inline-block text-sm ">Live</a>
+                                <a href="https://github.com/Kanha1235/wedding-card-studio" target="_blank" class="px-4 py-2 border ml-3 border-slate-500 rounded-xl text-sm hover:bg-slate-700 active:bg-slate-800">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="shadow-floating bg-slate-950 rounded-2xl hover:scale-[1.01] transition-transform ">
+                    <img src="./src/Portfolio_sc.png" alt="My PortFolio" class="w-full h-50 object-cover object-top rounded-t-2xl">
+                    <div class="p-6  flex flex-col justify-between gap-3 ">
+                        <div>
+                            <h1 class="font-extrabold text-xl  tracking-tight">My PortFolio</h1>
+                            <p class="mt-3 tracking-tight">Browser-based invite designer with draggable text, typography toolbar, and slide thumbnails using Shadow DOM.</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-500">HTML • Tailwind&nbsp;CSS • Vanilla&nbsp;JS</p>
+                            <div class="mt-3">
+                                <a href="https://kanha1235.github.io/wedding-card-studio/" target="_blank" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 active:bg-brand-800 inline-block text-sm ">Live</a>
+                                <a href="https://github.com/Kanha1235/wedding-card-studio" target="_blank" class="px-4 py-2 border ml-3 border-slate-500 rounded-xl text-sm hover:bg-slate-700 active:bg-slate-800">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="shadow-floating bg-slate-950 rounded-2xl hover:scale-[1.01] transition-transform ">
+                    <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?q=80&w=1200&auto=format&fit=crop" alt="Shopping Cart Backend" class="w-full h-50 object-cover object-center rounded-t-2xl ">
+                    <div class="p-6  flex flex-col justify-between gap-3 ">
+                        <div>
+                            <h1 class="font-extrabold text-xl  tracking-tight">Shopping Cart Backend
+                            </h1>
+                            <p class="mt-3 tracking-tight">C++ OOP backend for cart operations with STL; designed for extensibility (e.g., discounts).</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-500">C++ • OOP • STL</p>
+                            <div class="mt-3">
+                                <!-- <a href="https://kanha1235.github.io/wedding-card-studio/" target="_blank" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 active:bg-brand-800 inline-block text-sm ">Live</a> -->
+                                <a href="https://github.com/Kanha1235/Shopping_Cart_Backend" target="_blank" class="px-4 py-2 border  border-slate-500 rounded-xl text-sm hover:bg-slate-700 active:bg-slate-800">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="shadow-floating bg-slate-950 rounded-2xl hover:scale-[1.01] transition-transform ">
+                    <img src="./src/My_wishlist_sc.png" alt="My WISHLIST" class="w-full h-50 object-cover object-top rounded-t-2xl ">
+                    <div class="p-6  flex flex-col justify-between gap-3 ">
+                        <div>
+                            <h1 class="font-extrabold text-xl  tracking-tight">My WISHLIST</h1>
+                            <p class="mt-3 tracking-tight">A simple wishlist/to‑do app with add, done, and delete interactions focused on usability.</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-500">HTML • CSS • Vanilla&nbsp;JS</p>
+                            <div class="mt-3">
+                                <a href="https://kanha1235.github.io/My-WISHLIST/" target="_blank" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 active:bg-brand-800 inline-block text-sm ">Live</a>
+                                <a href="https://github.com/Kanha1235/My-WISHLIST" target="_blank" class="px-4 py-2 border ml-3 border-slate-500 rounded-xl text-sm hover:bg-slate-700 active:bg-slate-800">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+     <section id="contact" class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="font-bold text-3xl text-center">Contact</h2>
+            <p class="mt-4 text-center ">Have an opportunity or just want to say hi? Send a message.</p>
+            <div class="mt-12 grid md:grid-cols-2 gap-8">
+                <form class="p-6 rounded-2xl bg-slate-950 border border-slate-700 shadow-floating ">
+                    <div class="grid sm:grid-cols-2 gap-4 ">
+                        <div>
+                            <label for="name text-sm font-bold ">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your name" class="px-3 py-2 mt-1.5 bg-slate-900 border  w-full rounded-lg border-slate-700 outline-none focus:ring-4  focus:ring-brand-800">
+                        </div>
+                        <div>
+                            <label for="email text-sm font-bold ">Email</label>
+                            <input type="email" name="email" id="email" placeholder="you@example.com" class="px-3 py-2 rounded-lg mt-1.5 border border-slate-700 outline-none focus:ring-4 focus:ring-brand-800 bg-slate-900 w-full invalid:ring-red-800" required>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <label for="message text-sm font-bold">Message</label>
+                        <textarea name="message" id="message" rows="5" placeholder="How can I help?" class="w-full px-3 py-2 mt-1.5 rounded-lg bg-slate-900 border border-slate-700 focus:ring-4 outline-none focus:ring-brand-800 resize-y"></textarea>
+                    </div>
+                    <button type="submit" class="px-5 mt-5 py-2.5 bg-accent-600 hover:bg-accent-700 active:bg-accent-800 rounded-xl inline-flex items-center gap-2 transition font-semibold ">Submit&nbsp; 
+                        <i data-lucide="send" class="size-4"></i>
+                    </button>
+                </form>
+                
+                <div class="flex flex-col justify-between">
+                    <div class="flex flex-col gap-5 ">
+                        <a class="group flex items-center gap-3" href="mailto:kanhaiyajnvs@gmail.com">
+                            <i class="w-5 h-5" data-lucide="mail"></i>
+                            <span class="group-hover:underline">kanhaiyajnvs@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kanhaiya-kumar-sahu-3ba7b5227" class="group flex items-center gap-3" target="_blank">
+                            <i class="w-5 h-5" data-lucide="linkedin"></i>
+                            <span class="group-hover:underline">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Kanha1235" class="group flex items-center gap-3" target="_blank">
+                            <i class="w-5 h-5" data-lucide="github"></i>
+                            <span class="group-hover:underline">GitHub</span>
+                        </a>
+                        <a href="https://codeforces.com/profile/KANHA_123" class="group flex items-center gap-3" target="_blank">
+                            <i class="w-5 h-5" data-lucide="code-xml"></i>
+                            <span class="group-hove:underline">Codeforces</span>
+                        </a>
+                        <a href="https://leetcode.com/u/kksbhai_123/" class="group flex items-center gap-3" target="_blank">
+                            <i class="w-5 h-5" data-lucide="braces"></i>
+                            <span class="group-hover:underline">LeetCode</span>
+                        </a>
+                    </div>
+                    <div class="p-4 rounded-2xl border border-slate-700 mt-4 ">
+                        <h4 class="font-bold text-lg ">Resume</h4>
+                        <p class="mt-1  text-sm ">Download my latest resume.</p>
+                        <a href="https://drive.google.com/file/d/128vFr41AB57UCbNo93VS9p6vC3SQciVj/view?usp=sharing" class="text-brand-400 block mt-3 " target="_blank" download>Download PDF&nbsp;&#x2193;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+     <footer class="py-8 bg-slate-950 border-t border-slate-700">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="text-center">© 2025 Kanhaiya Kumar Sahu • All rights reserved.</p>
+            <div class="mt-3 flex gap-6 justify-center items-center">
+                <a href="javascript:void(0)" class="hover:underline">Privacy Policy</a>
+                <a href="javascript:void(0)" class="hover:underline">Terms of Service</a>
+            </div>
+        </div>
+     </footer>
+
+     
+</form>
+
+    <script>
+        lucide.createIcons();
+
+        let burger = document.querySelector(".menuButton");
+        let mobileNavButton = document.querySelector(".mobileNav");
+        burger.addEventListener('click',(e)=>{
+            mobileNavButton.classList.toggle('hidden');
+        })
+    </script>
+</body>
+</html>

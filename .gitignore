@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build artifacts (adjust to your tool)
+dist/
+build/
+public/build/
+.tmp/
+.cache/
+.parcel-cache/
+.vite/
+
+# Tailwind CLI output (ignore if you build on CI; keep if you deploy static HTML from repo)
+# output.css
+# output.css.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files (commit only an example)
+.env
+.env.*
+!.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Coverage / test artifacts
+coverage/
+
+# Hosting/platform
+.netlify/
+.vercel/
